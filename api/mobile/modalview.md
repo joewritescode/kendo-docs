@@ -46,10 +46,11 @@ Fires when the ModalView is shown.
 #### Example
 
     <div data-role="view">
-        <a href="#foo" data-rel="modalview">Foo</a>
-        <div data-role="modalview" id="foo" data-open="logTarget">
-            Foo
-        </div>
+        <a data-role="button" href="#foo" data-rel="modalview">Foo</a>
+    </div>
+
+    <div data-role="modalview" id="foo" data-open="logTarget">
+        Foo
     </div>
 
     <script>
